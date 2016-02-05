@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{763EA532-C6FA-4FB8-865C-372A3B5A75A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED5315DC-640A-42DC-A7C7-F6EAD8D49214}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SystemHROilCompany", "src\SystemHROilCompany\SystemHROilCompany.xproj", "{BEF599DB-7C17-4CB3-95D9-615222816217}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEF599DB-7C17-4CB3-95D9-615222816217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF599DB-7C17-4CB3-95D9-615222816217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF599DB-7C17-4CB3-95D9-615222816217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF599DB-7C17-4CB3-95D9-615222816217}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEF599DB-7C17-4CB3-95D9-615222816217} = {763EA532-C6FA-4FB8-865C-372A3B5A75A2}
+	EndGlobalSection
+EndGlobal
