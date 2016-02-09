@@ -2,11 +2,11 @@
 
 ## Project OOP.
 
-* Nama Project: Sistem Informasi Human Resources Mining Company
+* Nama Project: Sistem Informasi Human Resources Oil Company
 * Version : 1.0
 * Tanggal	: 05 Februari 2016
 * By		: Ucu Nurul Ulum
-* Deskripsi	: Membangun perancangan sistem informasi HR di Mining Company
+* Deskripsi	: Membangun perancangan sistem informasi HR di Oil Company
 * Development kit:
   - Visual Studio 2015
   - C# (Back-End)
@@ -52,6 +52,13 @@
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 
 ## Log
+
+
+### 9 Februari 2016:
+- Membuat main class (Employee Class)
+- Merevisi code untuk class Manager, Supervisor, Staff
+- Menambahkan baris code di class Program.cs
+- Aplikasi ini bisa dijalankan via console.
 
 ### 5 Februari 2016:
 
