@@ -5,6 +5,13 @@ using System.Threading.Tasks;
 
 namespace SystemHROilCompany
 {
+    //----------------------------
+    //Created 	    : Ucu Nurul Ulum
+    //Created on    : 5 Feb 2016
+    //LastModifed	: 9 Feb 2016
+    //Desc.		    : basic OOP for develop System HR in Oil Company
+    //----------------------------
+
     public class Program
     {
         public static void Main(string[] args)
@@ -32,6 +39,19 @@ namespace SystemHROilCompany
             Staff nuragus = new Staff("Staff Drilling Luwuk");
             Staff sofi = new Staff("Staff Refinery Balikpapan");
             Staff seta = new Staff("Staff General Affairs");
+
+            tegar = new Manager();
+            ucu = new Supervisor();
+            //trio = new Staff();
+            //(trio as Manager).comparativeStudy();
+
+            ucu.Assign();
+            tegar.Enter();
+
+            Console.WriteLine("Basic Salary = {0}", tegar.basicSalary);
+            Console.WriteLine("Travel Allowance = {0}", ucu.travelAllowance);
+            
+
 
         }
     }

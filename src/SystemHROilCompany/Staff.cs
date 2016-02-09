@@ -7,16 +7,22 @@ namespace SystemHROilCompany
 {
     public class Staff : Employee
     {
+        private string jobPosition;
+
         //public int staffID { get; set; }
         //public string staffName { get; set; }
         //public string staffDivision { get; set; }
         //public string staffLocation { get; set; }
 
-        public Staff(string staffDivision)
+        public Staff()
         {
             basicSalary = 2500000;
             transportAllowance = 150000;
-            this.division = staffDivision;
+        }
+
+        public Staff(string position)
+        {
+            this.jobPosition = position;
         }
 
         public override void Assign()
