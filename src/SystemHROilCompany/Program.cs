@@ -50,6 +50,7 @@ namespace SystemHROilCompany
 
             Console.WriteLine("Basic Salary = {0}", tegar.basicSalary);
             Console.WriteLine("Travel Allowance = {0}", ucu.travelAllowance);
+            Console.ReadLine();
             
 
 
